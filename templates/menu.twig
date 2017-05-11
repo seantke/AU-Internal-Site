@@ -1,0 +1,42 @@
+{% if menu %}
+    <nav class="navbar navbar-inverse" id="main-nav">
+        <div class="container fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#maincollapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" id="au-logo"><img src="http://eoanalytics.site/wp-content/uploads/2017/04/AU-logo-wide-white.png" alt="Analytics unit logo"></a>
+                <img src="http://eo-opendata.site/wp-content/uploads/2017/01/beta.gif" alt="logo">
+            </div>
+            <div class="collapse navbar-collapse" id="maincollapse">
+                <ul class="main-nav nav navbar-nav">
+                    {% for item in menu %}
+                        {% if item.get_children %}
+                            <li class="dropdown nav-main-item {{item.classes | join(' ')}}">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    {{item.title}}
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="nav-drop dropdown-menu">
+                                    {% for child in item.get_children %}
+                                        <li class="nav-main-item {{child.classes | join(' ')}}">
+                                            <a href="{{child.link}}">{{child.title}}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% else %}
+                            <li class="nav-main-item {{item.classes | join(' ')}}">
+                                <a class="nav-main-link" href="{{item.link}}">{{item.title}}</a>
+                            </li>
+
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+{% endif %}

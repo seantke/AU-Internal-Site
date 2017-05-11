@@ -1,0 +1,32 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" {{site.language_attributes}}> <![endif]-->
+<!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" {{site.language_attributes}}> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8 lt-ie9" {{site.language_attributes}}> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" {{site.language_attributes}}>
+    <!--<![endif]-->
+    <head>
+        <meta charset="{{site.charset}}"/>
+        <title>
+            {% if wp_title %}
+                {{ wp_title }}
+                -
+                {{ site.name }}
+            {% else %}
+                {{ site.name }}
+            {% endif %}
+        </title>
+        <meta name="description" content="{{site.description}}">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans|Raleway">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
+        <link rel="stylesheet" href="{{site.theme.link}}/static/jquery.dynatable.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="{{site.theme.link}}/style.css" type="text/css" media="screen"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="pingback" href="{{site.pingback_url}}"/>
+        <script src="{{site.theme.link}}/static/es5-shim_min.js" charset="utf-8"></script>
+        <script src="{{site.theme.link}}/static/es6-shim_min.js" charset="utf-8"></script>
+        {{function('wp_head')}}

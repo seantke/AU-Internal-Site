@@ -1,0 +1,36 @@
+{% block html_head_container %}
+
+    {% include 'html-header.twig' %}
+    {% block head %}{% endblock %}
+</head>
+{% endblock %}
+
+<body>
+
+{% block header %}
+    <header id="header">
+        {% include 'header.twig' %}
+    </header>
+{% endblock %}
+
+<main>
+    {% block content %}
+        Sorry, no content
+    {% endblock %}
+</main>
+
+{% block footer %}
+    <footer id="footer">
+        {% include 'footer.twig' %}
+    </footer>
+    {{ function('wp_footer') }}
+{% endblock %}
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="{{site.theme.link}}/static/jquery.dynatable.js" charset="utf-8"></script>
+<script src="{{site.theme.link}}/static/parallax.js" charset="utf-8"></script>
+<script src="{{site.theme.link}}/static/site.js" charset="utf-8"></script>
+</body>
+
+</html>

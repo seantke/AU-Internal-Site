@@ -1,0 +1,74 @@
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans|Raleway">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+.od-stage-datasets div{
+     font-size: 1.5em;
+     padding: 1.5em;
+}
+.od-stage-card{
+     border: 0.3em solid rgb(253,211,131);
+     padding: 0;
+     margin: 0;
+}
+.od-stage-title{
+     background-color: rgb(253,211,131);
+     padding: 0.5em 2em;
+}
+.od-stage-content{
+     display:none;
+     padding: 0.2em 0.5em;
+}
+</style>
+
+<div id="json-zone">
+    <div id="dataset-path112">
+        <h2>Dataset Creation</h2>
+        <div>Primary Responsibility: Wesley Ferris (Open Data Team Lead) </div>
+        <div class="od-stage-datasets">
+            <h3>Datasets currently in this Stage:</h3>
+            <div><i class="fa fa-database"></i> EO Data by Local Board Area 2015/16</div>
+            <div><i class="fa fa-database"></i> Apprenticeship Gender, Age, and Outcomes by Trade (2011 to 2015)</div>
+        </div>
+        <div class="od-stage-card">
+            <div class="od-stage-title togglebox">
+                <h3><i class="fa fa-plus"></i> Objectives:</h3>
+            </div>
+            <div class="od-stage-content togglecontent">
+                <p> Pull data from CaMS/SP Connect and produce dataset in Open Data format. Create technical dictionary and documentation to explain data and provide program context as required. </p>
+            </div>
+        </div>
+        <div class="od-stage-card">
+            <div class="od-stage-title togglebox">
+                <h3><i class="fa fa-plus"></i> Consulted Staff and purspose for consultation:</h3>
+            </div>
+            <div class="od-stage-content togglecontent">
+                <ul>
+                    <li>Other AU Staff - Leverage expertise in program area and/or CaMS/SP Connect.</li>
+                    <li>BSU &amp; RPRU Staff - Information on extracting data from CaMS/SP Connect</li>
+                    <li>PDSB SMEs - Information and background on program context.</li>
+                    <li>Regional PCSU Staff - Consult re how data is gathered and inputted into CaMS/SP Connect and on how programs operate on-the-ground.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+     $("body").on("click", ".togglebox", function(e){
+          if($(this).attr("data-toggled") === "true"){
+               $(this).find(".fa-minus").removeClass("fa-minus").addClass("fa-plus");
+               $(this).siblings(".togglecontent").hide();
+               $(this).attr("data-toggled", "false");
+          } else {
+               $(this).find(".fa-plus").removeClass("fa-plus").addClass("fa-minus");
+               $(this).siblings(".togglecontent").show();
+               $(this).attr("data-toggled", "true");
+          }
+     });
+</script>

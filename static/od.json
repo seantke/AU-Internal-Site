@@ -1,0 +1,211 @@
+[{
+        "Stage": "Dataset Creation",
+        "Objectives": [
+            " Pull data from CaMS/SP Connect and produce dataset in Open Data format.",
+            " Create technical dictionary and documentation to explain data and provide program context as required."
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead)"
+        ],
+        "Consulted Staff": [
+            "Other AU Staff",
+            "BSU & RPRU Staff",
+            "PDSB SMEs",
+            "Regional PCSU Staff"
+        ],
+        "Purpose of Consultations": [
+            "Leverage expertise in program area and/or CaMS/SP Connect.",
+            "Information on extracting data from CaMS/SP Connect",
+            "Information and background on program context.",
+            "Consult re how data is gathered and inputted into CaMS/SP Connect and on how programs operate on-the-ground."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path112"
+    },
+    {
+        "Stage": "MO Briefing",
+        "Objectives": [
+            "Inform MO Staff through the biweekly briefing that the dataset is in preparation, with anticipated dates for posting on SP Portal and submission of dataset for approval."
+        ],
+        "Primary Responsibility": [
+            "Todd Kilpatrick (Director, FASSB)",
+            "Christine Hagyard (Manager, AU)",
+            "Wesley Ferris (Open Data Team Lead)"
+        ],
+        "Consulted Staff": [
+            "ADMO"
+        ],
+        "Purpose of Consultations": [
+            "Ensure ADMO is fully-apprised and approves of content of briefing of MO staff."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path380"
+    },
+    {
+        "Stage": "Dataset Review Open Data Team",
+        "Objectives": [
+            " ETD Open Data Team reviews the dataset and documentation, providing verification of data, feedback, and revisions."
+        ],
+        "Primary Responsibility": [
+            "Open Data Team"
+        ],
+        "Consulted Staff": [
+            "PDSB SMEs (by PDSB reps on ODT)",
+            "Regional Staff (by Regional reps on ODT)",
+            "All Open Data Team Members"
+        ],
+        "Purpose of Consultations": [
+            "Confirm accuracy of the data and documentation.",
+            "Confirm accuracy of the data and documentation from regional SMEs who are most familiar with the data.",
+            "Approve draft of the dataset and documentation for staff review."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path382"
+    },
+    {
+        "Stage": "Initial Risk Assessment Review",
+        "Objectives": [
+            "Preliminary consultation with legal and privacy staff to ensure data can be released in the format proposed."
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead)"
+        ],
+        "Consulted Staff": [
+            "Jeffrey Jenkins (Manager, Privacy Unit) and Cristina Brandao (Information and Privacy Advisor)",
+            "Melanie Herbin (Counsel, Legal Branch)",
+            "Open Data Team"
+        ],
+        "Purpose of Consultations": [
+            "Meet and discuss the draft dataset and documentation to ensure it does not violate the provisions of FIPPA.",
+            "Meet and discuss whether there are any legal impediments to the release of the draft dataset and documentation.",
+            "Draft the Risk Assessment Checklist."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path384"
+    },
+    {
+        "Stage": "Dataset Review All ETD Staff",
+        "Objectives": [
+            " All ETD staff has the opportunity to review the dataset and documentation through the Staff Review Site."
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead)",
+            "Christine Hagyard (AU Manager)"
+        ],
+        "Consulted Staff": [
+            "Open Data Team Members",
+            "PCSU/RRPU Managers"
+        ],
+        "Purpose of Consultations": [
+            "Ensure all staff from their units/regions know of the opportunity to provide feedback.",
+            "Ensure regional managers are apprised of Open Datasets in production and of opportunity to provide feedback."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path388"
+    },
+    {
+        "Stage": "Communications Plan Posting of Dataset on the SP Portal",
+        "Objectives": [
+            "Develop and implement a communications plan for the posting of the dataset on the SP Portal for SP review and feedback."
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead)",
+            "Sherri Robinson (Open Data Comms Lead)",
+            "Jocelyn Adolfo and Inna Dzubanchyn (CSI Open Data Contacts)"
+        ],
+        "Consulted Staff": [
+            "Open Data Team",
+            "Regional Reps on the Open Data Team",
+            "Christine Hagyard (AU Manager)",
+            "ADMO",
+            "Andrea Patterson (CSI)"
+        ],
+        "Purpose of Consultations": [
+            "Communications plan and all communications materials are reviewed, revised, and approved by the ETD Open Data Team.",
+            "Collect feedback from local and regional staff on potential questions from SPs.",
+            "Collect feedback from regional managers on anticipated questions from SPs and information/comm. supports needed by local staff.",
+            "All communications materials are reviewed and approved by ADMO prior to release.",
+            "Coordinating and posting of comm. materials to Compass, Intranet, and EOPG as necessary."
+       ],
+       "datasets":["ES Financial Allocations and Expenditures by SDS 2015/16"],
+       "hash":"dataset-path386"
+    },
+    {
+        "Stage": "Dataset Review Service Providers",
+        "Objectives": [
+            "Dataset and documentation is posted on the EO Open Data Service Provider Portal for SPs to provide feedback and revisions"
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead)",
+            "Robert Coleman (SP Portal Developer)"
+        ],
+        "Consulted Staff": [
+            "All Service Providers",
+            "Open Data Team"
+        ],
+        "Purpose of Consultations": [
+            "The full dataset and all documentation is provided to all service providers (regardless of whether the dataset directly touches on a program they deliver) and are encouraged to provide feedback and suggestions for revisions and clarifications.",
+            "Incorporate service provider feedback into the final draft of the dataset and documentation."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path390"
+    },
+    {
+        "Stage": "Dataset Review/ Approval Process",
+        "Objectives": [
+            "Dataset and documentation is reviewed and/or approved by individuals/groups as required by TBS guidelines for posting datasets on the Data Catalogue"
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead); Sean Holdbrook (Review/Approvals Website Developer)"
+        ],
+        "Consulted Staff": [
+            "Open Data Team",
+            "Program Manager",
+            "Director, PDSB",
+            "Counsel, Legal Branch",
+            "Manager, Privacy Branch",
+            "Director, OBEB",
+            "ADMO",
+            "DMO",
+            "MO"
+        ],
+        "Purpose of Consultations": [
+            "Approves final draft of the dataset, documentation, and Risk Assessment Checklist.",
+            "Reviews and approves the dataset and documentation for posting on the TBS Data Catalogue.",
+            "Same as above",
+            "Same as above",
+            "Same as above",
+            "Same as above",
+            "Same as above",
+            "Same as above",
+            "Same as above"
+       ],
+       "datasets":["EO Data by Local Board Area 2015/16", "Apprenticeship Gender, Age, and Outcomes by Trade (2011 to 2015)"],
+       "hash":"dataset-path392"
+    },
+    {
+        "Stage": "Communications Plan Posting of Dataset on TBSData Catalogue and the Geo Hub",
+        "Objectives": [
+            "Develop and implement a communications plan for the posting of the dataset on TBSData Catalogue and the EO Geo Hub."
+        ],
+        "Primary Responsibility": [
+            "Wesley Ferris (Open Data Team Lead); Sherri Robinson (Open Data Comms Lead); Jocelyn Adolfo and Inna Dzubanchyn (CSI Open Data Contacts)"
+        ],
+        "Consulted Staff": [
+            "Open Data Team",
+            "Regional Reps on the Open Data Team",
+            "Christine Hagyard (AU Manager)",
+            "ADMO",
+            "Andrea Patterson (CSI)"
+        ],
+        "Purpose of Consultations": [
+            "Communications plan and all communications materials are reviewed, revised, and approved by the ETD Open Data Team.",
+            "Collect feedback from local and regional staff on potential questions from both staff and the public.",
+            "Collect feedback from regional managers on anticipated questions from the public and information/comm. supports needed by local staff.",
+            "All communications materials are reviewed and approved by ADMO prior to release.",
+            "Coordinating and posting of comm. materials to Compass, Intranet, and EOPG as necessary."
+       ],
+       "datasets":["none"],
+       "hash":"dataset-path394"
+    }
+]

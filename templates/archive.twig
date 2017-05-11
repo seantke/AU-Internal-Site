@@ -1,0 +1,13 @@
+{% block content %}
+    <div class="container">
+        <div class="row">
+            {% for post in posts %}
+                <a href="{{post.guid}}"><h2>{{post.title}}</h2></a>
+                <div class="col-sm-12">
+                    {{post.content}}
+                </div>
+                <hr/>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

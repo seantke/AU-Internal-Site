@@ -1,0 +1,16 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+<section id="staff-section">
+{% for p in staff %}
+    <figure class="staff-card">
+      <div class="circle-img">
+        <img src="{{p.picture}}" alt="{{p.name}}">
+      </div>
+      <h3>{{p.name}}</h3>
+      <p class="staff-about">{{p.about}}</p>
+    </figure>
+{% endfor %}
+</section>
+{% endblock %}
